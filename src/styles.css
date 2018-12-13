@@ -1,1 +1,111 @@
 /* You can add global styles to this file, and also import other style files */
+@import './assets/bootstrap.min.css';
+
+/* body  {
+    background-image: url("https://www.tvm.media/login/images/web_1440x900_background.jpg");
+    background-color: #cccccc;
+  } */
+body {
+  margin: 0px;
+}
+
+body {
+  background: #466368;
+  /* background: linear-gradient(#648880, #293f50); */
+  background: radial-gradient(circle, white, orange, black);
+  font-family: cursive;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #090600;
+  border-color: #2e6da4;
+  border: none;
+}
+
+.btn-link {
+  font-weight: 400;
+  color: #337ab7;
+  border-radius: 0;
+  color: black;
+}
+
+.btn-link:hover {
+  font-weight: 400;
+  color: #337ab7;
+  border-radius: 0;
+  color: black;
+  text-decoration: none;
+}
+
+.form-control, .form-control:focus {
+  background: transparent;
+  border: 1px solid rgb(170, 157, 157);
+  border-radius: 16px;
+  outline: unset !important;
+  box-shadow: unset;
+}
+
+
+/* image cards  */
+
+
+.src-image {
+    display: none;
+  }
+  
+  .card {
+    /* overflow: hidden;
+    position: relative;
+    border: 1px solid #CCC;
+    border-radius: 8px;
+    text-align: center;
+    padding: 0;
+    background-color: #284c79;
+    color: rgb(136, 172, 217); */
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #130c00;
+    border-radius: 8px;
+    text-align: center;
+    padding: 0;
+    color: rgb(1, 1, 0);
+    border-radius: 20px 0px 20px;
+  }
+  
+  .card .header-bg {
+    /* This stretches the canvas across the entire hero unit */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px #FFF solid;
+    /* This positions the canvas under the text */
+    z-index: 1;
+  }
+  .card .avatar {
+    position: relative;
+    margin-top: 15px;
+    z-index: 100;
+  }
+  
+  .card .avatar img {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(0,0,30,0.8);
+  }
+  
+/* ======== */
+.invalid-feedback {
+    color: red;
+    font-size: 12px;
+    padding-left: 11px;
+    position: absolute;
+}
